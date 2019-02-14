@@ -14,6 +14,7 @@ import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
 
 //import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from "primeng/toolbar";
+import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ToolbarModule } from "primeng/toolbar";
     AppComponent,
     StoriesGurselComponent,
     NavigationComponent,
-    DatumTijdComponent
+    DatumTijdComponent,
+    ReverseNameComponent
   ],
   imports: [
     BrowserModule,
