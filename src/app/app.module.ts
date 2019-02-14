@@ -19,7 +19,7 @@ import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      //{path:"home",}
+      //{path:"Gursel", component: StoriesGurselComponent}
     ])
   ],
   providers: [],
