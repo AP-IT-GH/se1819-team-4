@@ -12,10 +12,8 @@ import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
 @NgModule({
   declarations: [
     AppComponent,
-    StoriesGurselComponent
-    AppComponent,
-    NavigationComponent
-    AppComponent,
+    StoriesGurselComponent,
+    NavigationComponent,
     DatumTijdComponent
   ],
   imports: [
