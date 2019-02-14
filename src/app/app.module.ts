@@ -5,6 +5,7 @@ import { RouterModule} from '@angular/router'
 import { AppComponent } from './app.component';
 import { StoriesGurselComponent } from './stories-gursel/stories-gursel.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
 
 
 
@@ -14,6 +15,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     StoriesGurselComponent
     AppComponent,
     NavigationComponent
+    AppComponent,
+    DatumTijdComponent
   ],
   imports: [
     BrowserModule,
