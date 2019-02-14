@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { StoriesGurselComponent } from './stories-gursel/stories-gursel.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
+import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 
 
 
@@ -14,7 +15,8 @@ import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
     AppComponent,
     StoriesGurselComponent,
     NavigationComponent,
-    DatumTijdComponent
+    DatumTijdComponent,
+    ReverseNameComponent
   ],
   imports: [
     BrowserModule,
