@@ -13,7 +13,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
 import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 
-//import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from "primeng/toolbar";
 import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 
@@ -30,10 +30,11 @@ import { ReverseNameComponent } from './reverse-name/reverse-name.component';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    //ButtonModule,
+    ButtonModule,
     ToolbarModule,
     RouterModule.forRoot([
       {path:"Gursel", component: StoriesGurselComponent}
+      
     ])
   ],
   providers: [],
