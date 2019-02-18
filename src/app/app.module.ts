@@ -8,7 +8,6 @@ import { FormsModule } from '@angular/forms'
 
 import { RouterModule} from '@angular/router'
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
 import { StoriesGurselComponent } from './stories-gursel/stories-gursel.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
