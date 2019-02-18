@@ -39,7 +39,7 @@ import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.c
       {path:"Gursel", component: StoriesGurselComponent},
       {path:"Reversename", component: ReverseNameComponent},
       {path:"DatumTijd", component: DatumTijdComponent},
-      {path:"RandommNummer", component: VermenigvuldigenComponent}
+      {path:"RandomNummer", component: VermenigvuldigenComponent}
       
     ])
   ],
