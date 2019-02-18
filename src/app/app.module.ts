@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms'
 
 import { RouterModule} from '@angular/router'
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
 import { StoriesGurselComponent } from './stories-gursel/stories-gursel.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
@@ -15,15 +16,19 @@ import { DatumTijdComponent } from './datum-tijd/datum-tijd.component';
 import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from "primeng/toolbar";
 import { ReverseNameComponent } from './reverse-name/reverse-name.component';
+import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     StoriesGurselComponent,
     NavigationComponent,
     DatumTijdComponent,
-    ReverseNameComponent
+    ReverseNameComponent,
+    VermenigvuldigenComponent
+
   ],
   imports: [
     BrowserModule,
