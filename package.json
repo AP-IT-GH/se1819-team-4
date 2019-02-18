@@ -25,7 +25,8 @@
     "primeicons": "^1.0.0",
     "primeng": "^7.0.5",
     "rxjs": "~6.2.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "lodash": "4.17.11"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.8.0",
