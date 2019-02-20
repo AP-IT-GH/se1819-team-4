@@ -20,8 +20,7 @@ export class ReverseNameComponent implements OnInit {
   
 
   onClickMe() {
-    var txt = document.getElementById("write").nodeValue;
-    
+    var txt= ((document.getElementById("write") as HTMLInputElement).value);
     var lol = this.reversestring(txt);
     console.log(lol);
     this.clickMessage = 'You are my hero!';
