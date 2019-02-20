@@ -46,6 +46,7 @@ import { DateCountdownComponent } from './date-countdown/date-countdown.componen
       {path:"Reversename", component: ReverseNameComponent},
       {path:"DatumTijd", component: DatumTijdComponent},
       {path:"RandomNummer", component: VermenigvuldigenComponent},
+      {path:"DateCountdown", component: DateCountdownComponent},
       {path: "", redirectTo: "home", pathMatch:"full" }
       
     ])
