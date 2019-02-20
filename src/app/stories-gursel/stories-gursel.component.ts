@@ -53,6 +53,10 @@ export class StoriesGurselComponent implements OnInit {
     this.cbc++;
     document.getElementById("tekst").style.fontSize = this.cbc +'px';
   }
+  sizecolorReset(){
+    document.getElementById("tekst").style.fontSize = '16' +'px';
+    document.getElementById("tekst").style.color = "#000000";
+  }
 
 }
 
