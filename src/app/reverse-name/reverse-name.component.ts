@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
   selector: 'app-reverse-name',
   templateUrl: './reverse-name.component.html',
@@ -12,9 +11,8 @@ export class ReverseNameComponent implements OnInit {
 
   ngOnInit() {
   }
-
-
 }
+
 @Component({
   selector: 'app-click-me',
   template: `
