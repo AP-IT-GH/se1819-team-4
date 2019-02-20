@@ -19,7 +19,6 @@ import { ToolbarModule } from "primeng/toolbar";
 //import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.component';
 import { HomeComponent } from './home/home.component';
-import { DateCountdownComponent } from './date-countdown/date-countdown.component';
 
 
 @NgModule({
