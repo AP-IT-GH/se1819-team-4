@@ -17,6 +17,7 @@ import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from "primeng/toolbar";
 import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.c
     NavigationComponent,
     DatumTijdComponent,
     ReverseNameComponent,
-    VermenigvuldigenComponent
+    VermenigvuldigenComponent,
+    HomeComponent
 
   ],
   imports: [
@@ -36,10 +38,12 @@ import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.c
     ButtonModule,
     ToolbarModule,
     RouterModule.forRoot([
+      {path: "home", component: HomeComponent },
       {path:"Gursel", component: StoriesGurselComponent},
       {path:"Reversename", component: ReverseNameComponent},
       {path:"DatumTijd", component: DatumTijdComponent},
-      {path:"RandomNummer", component: VermenigvuldigenComponent}
+      {path:"RandomNummer", component: VermenigvuldigenComponent},
+      {path: "", redirectTo: "home", pathMatch:"full" }
       
     ])
   ],
