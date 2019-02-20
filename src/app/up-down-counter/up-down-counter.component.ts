@@ -13,5 +13,12 @@ export class UpDownCounterComponent implements OnInit {
   ngOnInit() {
   }
 
+  countUp(){
+    this.getal++;
+  }
+
+  countDown(){
+    this.getal--;
+  }
  
 }
