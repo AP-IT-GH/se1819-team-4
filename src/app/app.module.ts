@@ -16,7 +16,7 @@ import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 
 import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from "primeng/toolbar";
-import { ReverseNameComponent } from './reverse-name/reverse-name.component';
+//import { ReverseNameComponent } from './reverse-name/reverse-name.component';
 import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.component';
 
 
