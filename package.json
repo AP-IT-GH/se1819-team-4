@@ -21,8 +21,12 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "core-js": "^2.5.4",
+    "prime": "^0.5.0",
+    "primeicons": "^1.0.0",
+    "primeng": "^7.0.5",
     "rxjs": "~6.2.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "lodash": "4.17.11"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.8.0",
