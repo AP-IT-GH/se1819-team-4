@@ -5,3 +5,15 @@
   <p>{{random}}</p>
 
 </div>
+
+<div> 
+  Getallen optellen met elkaar
+  <br>
+  <input #invoer type="number" [(ngModel)] = "Nummer1"  >
+  <input #invoer2 type="number" [(ngModel)] = "Nummer2" >
+  <br>
+  <p>{{Uitkomst}}</p>
+  <br>
+  <button (click)="OptelGetal()">Optellen</button>
+
+</div>
