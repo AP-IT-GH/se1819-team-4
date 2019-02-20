@@ -7,10 +7,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reverse-name.component.css']
 })
 export class ReverseNameComponent implements OnInit {
+  
 
-  constructor() { }
+  constructor() { 
+    var tobereversed = "";
+  }
 
   ngOnInit() {
+  }
+
+  clickMessage = '';
+  
+
+  onClickMe() {
+    var txt = document.getElementById("write").nodeValue;
+    
+    var lol = this.reversestring(txt);
+    console.log(lol);
+    this.clickMessage = 'You are my hero!';
+    document.getElementById("text").textContent = lol;
+  }
+
+  reversestring(str){
+    var splitString = str.split("");
+    var reverseArray = splitString.reverse();
+    var joinArray = reverseArray.join("");
+    return joinArray;
   }
 
 
@@ -22,9 +44,5 @@ export class ReverseNameComponent implements OnInit {
     {{clickMessage}}`
 })
 export class ClickMeComponent {
-  clickMessage = '';
-
-  onClickMe() {
-    this.clickMessage = 'You are my hero!';
-  }
+  
 }
