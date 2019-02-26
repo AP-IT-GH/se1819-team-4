@@ -4,8 +4,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms'
 
-
-
 import { RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 
@@ -20,6 +18,7 @@ import { ToolbarModule } from "primeng/toolbar";
 import { VermenigvuldigenComponent } from './vermenigvuldigen/vermenigvuldigen.component';
 import { HomeComponent } from './home/home.component';
 import { DateCountdownComponent } from './date-countdown/date-countdown.component';
+import { InterfaceComponent } from './interface/interface.component';
 
 
 @NgModule({
@@ -32,6 +31,7 @@ import { DateCountdownComponent } from './date-countdown/date-countdown.componen
     VermenigvuldigenComponent,
     HomeComponent,
     DateCountdownComponent,
+    InterfaceComponent,
 
   ],
   imports: [
@@ -41,6 +41,7 @@ import { DateCountdownComponent } from './date-countdown/date-countdown.componen
     ButtonModule,
     ToolbarModule,
     RouterModule.forRoot([
+      {path: "interface", component: InterfaceComponent },
       {path: "home", component: HomeComponent },
       {path:"Gursel", component: StoriesGurselComponent},
       {path:"Reversename", component: ReverseNameComponent},
